@@ -85,6 +85,7 @@ header ul li {
 
 .prodotto-text-discount {
     color: red;
+    font-weight: bold;
 }
 
 .prodotto-text-price-underlined {
