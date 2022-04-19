@@ -18,6 +18,8 @@ header {
     padding: 1.2rem 0;
     font-weight: bold;
     font-size: 16px;
+    min-width: 1300px;
+    margin: 0 auto;
 }
 
 header .logo img {
@@ -126,6 +128,7 @@ header ul li {
 
 /* --------------------------------------- */
 
+/* stile del footer */
 
 footer {
     background: #1A1A1A;
@@ -142,3 +145,14 @@ footer {
 }
 
 
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social i {
+    padding: 0.5rem 0.2rem ;
+    font-size: 20px;
+}
+
+/* --------------------------------------- */
