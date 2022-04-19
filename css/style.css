@@ -1,11 +1,14 @@
+/* stile di reset + font */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
-
+/* stile dell'header */
 header {
     background-color: #FF6900;
     display: flex;
@@ -26,4 +29,116 @@ header ul li {
     display: inline-block;
     padding: 0 0.4rem;
 }
+
+.icons i {
+    padding: 0 0.3rem;
+}
+/* --------------------------------------- */
+
+/* stile container righe e colonne */
+
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 3.4rem 0;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-basis: calc(100% / 3 - 20px);
+}
+
+/* --------------------------------------- */
+
+/* stile del prodotto */
+
+.prodotto {
+    position: relative;
+}
+
+.two {
+    display: none;
+}
+
+.prodotto:hover .one {
+    display: none;
+}
+
+.prodotto:hover .two {
+    display: block;
+}
+
+
+
+.col .prodotto img {
+    width: 100%;
+
+}
+
+.prodotto-text-discount {
+    color: red;
+}
+
+.prodotto-text-price-underlined {
+    text-decoration: line-through;
+}
+
+.prodotto-information {
+    position: absolute;
+    bottom: 15%;
+
+}
+.prodotto-information .discount {
+    padding: 0.3rem 0.5rem;
+    background: red;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.prodotto-information .info {
+    background: green;
+}
+
+
+.pi {
+    padding: 0.3rem 0.5rem;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.heart {
+    position: absolute;
+    top: 1%;
+    right: 0;
+    padding: 0.8rem 0.8rem;
+    background-color: #fff;
+   
+}
+
+/* --------------------------------------- */
+
+
+footer {
+    background: #1A1A1A;
+    color: #fff;
+}
+
+.footer-info {
+    line-height: 26px;
+    padding: 0.2rem 0.3rem;
+}
+
+.footer-info span {
+    padding: 0 0.2rem;
+}
+
 
